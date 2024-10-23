@@ -12,4 +12,14 @@ class Suppliers extends Model
 
     protected $fillable = ['name', 'currency', 'status'];
 
+    public function invoices()
+    {
+        return $this->hasMany(Invoices::class);
+    }
+
+    public function creditNotes()
+    {
+        return $this->hasMany(CreditNotes::class);
+    }
+
 }
