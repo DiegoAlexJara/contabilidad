@@ -1,0 +1,13 @@
+body{
+    background-color: rgb(226, 226, 226);
+}
+
+
+table{
+    border-radius: 10px;
+}
+
+thead{
+    border-bottom: .5px solid black;
+    border-radius: 10px;
+}
